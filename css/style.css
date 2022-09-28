@@ -1,0 +1,170 @@
+body {
+  font-family: Verdana;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header {
+  border-bottom: 3px black solid;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 3%;
+  font-size: 125%;
+}
+
+.Produit {
+  margin-right: 20%;
+}
+
+.Decouvrir {
+  margin-right: 20%;
+}
+
+li a:hover {
+  border-bottom: 3px black solid;
+  text-decoration: none;
+}
+
+.souris {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 5%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+.imageTexte {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  margin-right: 20%;
+  margin-top: 7.5%;
+}
+
+h3.description {
+  text-align: center;
+  font-size: 200%;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.texte {
+  padding: 5% 5% 5% 5%;
+  ma
+}
+
+h4.titre {
+  font-size: 150%;
+}
+
+main {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  background-color: black;
+  color: white;
+  font-size: 150%;
+  padding: 7.5% 7.5% 7.5% 7.5%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  margin-top: 2.5%;
+  padding-bottom: 2.5%;
+  color: rgb(168, 154, 154);
+}
+
+.conditionUtilisation {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 767px){
+    .logo {
+      width: 5%;
+      height: -5%;
+    }
+
+    .compte {
+      width: -5%;
+      height: -5%;
+    }
+
+    .navigation {
+      font-size: 100%;
+      padding-top: 7.5%;
+    }
+
+    .imageTexte {
+      flex-direction: column;
+      padding-left: 5%;
+    }
+
+    .section2 {
+      flex-direction: column;
+    }
+
+    .reseauSociaux {
+      display: flex;
+      justify-content: center;
+    }
+
+    .souris {
+      display: flex;
+      justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .texte {
+    flex-direction: column;
+  }
+
+  .souris {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section2 {
+    flex-direction: column;
+  }
+
+  .reseauSociaux {
+    display: flex;
+    justify-content: center;
+  }
+}
+
